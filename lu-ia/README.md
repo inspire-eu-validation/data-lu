@@ -32,7 +32,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 The instantiable feature type is:
 
-ManagementRestrictionOrRegulationZone
+**TO BE COMPLETED**
 
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
 
@@ -42,7 +42,7 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-lu <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.1](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
+TG DS-lu <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
@@ -59,10 +59,11 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
 gml            | http://www.opengis.net/gml/3.2
-am          | http://inspire.ec.europa.eu/schemas/lu/4.0
+lu             | http://inspire.ec.europa.eu/schemas/lu/4.0
+**TO BE COMPLETED**
 
 The following variables are used to refer to the corresponding Xpath expressions in all test descriptions:
 
 Variable       | Value
 -------------- | -------------------------------------------------
-$features      |  //schema-element(am:ManagementRestrictionOrRegulationZone) \|
+$features      |  //schema-element(**TO BE COMPLETED**) \|
