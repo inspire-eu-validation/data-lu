@@ -15,8 +15,8 @@ Inspect the view service, either through HTTP requests or using a software tool 
 
 **Reference(s)**:
 
-* [TG DS-lu](./README.md#ref_TG_DS_LU), IR Requirement, Article 14
-* [TG DS-lu](./README.md#ref_TG_DS_LU), TG Requirement 7
+* [TG DS-LU](./README.md#ref_TG_DS_LU), IR Requirement, Article 14
+* [TG DS-LU](./README.md#ref_TG_DS_LU), TG Requirement 7
 
 **Test type**: Manual
 
