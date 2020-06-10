@@ -30,4 +30,4 @@ The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
-features <a name="features"></a>   |  //schema-element(elu:ExistingLandUseDataSet) | //schema-element(gelu:ExistingLandUseGrid)| //schema-element(plu:SpatialPlan)| //schema-element(selu:SampledExistingLandUseDataSet)|
+features <a name="features"></a>   |  //schema-element(elu:ExistingLandUseDataSet) \| //schema-element(gelu:ExistingLandUseGrid)\| //schema-element(plu:SpatialPlan)\| //schema-element(selu:SampledExistingLandUseDataSet)
