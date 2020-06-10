@@ -1,4 +1,4 @@
-# Conformance class: GML application schemas, Land Use (DRAFT)
+# Conformance class: GML application schemas, Land Use
 
 Conformance class for the GML encoding of spatial objects specified in the INSPIRE GML application schema 'Land Use'. This conformance class examines the data set against requirements associated with the GML application schema.
 
