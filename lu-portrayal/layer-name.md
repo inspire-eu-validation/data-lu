@@ -10,7 +10,7 @@
 
 **Reference(s)**:
 
-* [TG DS-lu](./README.md#ref_TG_DS_LU), IR Requirement, Article 14(1)(a)
+* [TG DS-LU](./README.md#ref_TG_DS_LU), IR Requirement, Article 14(1)(a)
 
 **Test type**: Automated
 
