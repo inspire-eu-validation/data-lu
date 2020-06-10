@@ -45,7 +45,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-lu](#ref_TG_DS_LU)  |
+| Identifier                                                        | Status   | Test case in [TG DS-LU](#ref_TG_DS_LU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Code list values](./code-list-values.md)  | Draft  | A.1.3  |
 
