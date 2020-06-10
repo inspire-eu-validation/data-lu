@@ -22,13 +22,13 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-lu](./README.md#ref_TG_DS_LU) | [GML application schemas, Land Use](../lu-gml/README.md) | INSPIRE spatial data set encoded in GML, Land Use features | n/a |
+| [TG DS-LU](./README.md#ref_TG_DS_LU) | [GML application schemas, Land Use](../lu-gml/README.md) | INSPIRE spatial data set encoded in GML, Land Use features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
 The instantiable feature types in the application schema are:
 
-* TO BE COMPLETED
+* ExistingLandUseGrid
 
 
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
@@ -39,12 +39,12 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-lu <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
+TG DS-LU <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-lu](#ref_TG_DS_LU)  |
+| Identifier                                                        | Status   | Test case in [TG DS-LU](#ref_TG_DS_LU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Constraints](./constraints.md)  | Draft  | A.1.6  |
 
@@ -54,8 +54,8 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
-lu             | http://inspire.ec.europa.eu/schemas/lu/4.0
-net            | http://inspire.ec.europa.eu/schemas/net/4.0
+gelu           | http://inspire.ec.europa.eu/schemas/gelu/4.0
+gmlcov         | http://www.opengis.net/gmlcov/1.0
 base           | http://inspire.ec.europa.eu/schemas/base/3.3
 gml            | http://www.opengis.net/gml/3.2
 wfs            | http://www.opengis.net/wfs/2.0
