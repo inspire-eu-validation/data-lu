@@ -10,7 +10,7 @@
 
 **Reference(s)**: 
 
-* [TG DS-lu](./README.md#ref_TG_DS_LU) 5.4, 5.5
+* [TG DS-LU](./README.md#ref_TG_DS_LU) 5.4, 5.5
 
 **Test type**: Automated
 
@@ -20,14 +20,14 @@ There is no requirement that we could reference in the Technical Guidelines. May
 
 ## Messages
 
-Identifier  |  Message text (parAMeters start with '$')
+Identifier  |  Message text (parameters start with '$')
 ----------- | -------------------------------------------------------------------------
-noFeature <a nAMe="noFeature"/>  |  	The XML documents representing the spatial data set do not contain a feature of any of the spatial object types in the 'Land Use - Land Use' or 'Land Use - Maritime Units' application schemas. Therefore, the spatial data set cannot conform to this conformance class. If you have expected to find spatial objects from the application schema in the data set, please consult the statistics information to see the spatial object types that have been found.
+noFeature <a name="noFeature"/>  |  	The XML documents representing the spatial data set do not contain a feature of any of the spatial object types in the 'Land Use' application schemas. Therefore, the spatial data set cannot conform to this conformance class. If you have expected to find spatial objects from the application schema in the data set, please consult the statistics information to see the spatial object types that have been found.
 
 ## Contextual XPath references
 
-The namespace prefixes used as described in [README.md](./README.md#nAMespaces).
+The namespace prefixes used as described in [README.md](./README.md#namespaces).
 
 Abbreviation                                          |  XPath expression
 ----------------------------------------------------- | ------------------------------------------------------------------
-features <a name="features"></a>   |  //schema-element(am:ManagementRestrictionOrRegulationZone) \|
+features <a name="features"></a>   |  //schema-element(elu:ExistingLandUseDataSet) | //schema-element(gelu:ExistingLandUseGrid)| //schema-element(plu:SpatialPlan)| //schema-element(selu:SampledExistingLandUseDataSet)|
