@@ -46,4 +46,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-EnvironmentalDomain <a name="hilucsLandUse"></a>   | //schema-element(selu:ExistingLandUseSample)/selu:hilucsLandUse
+EnvironmentalDomain <a name="hilucsLandUse"></a>   | //schema-element(selu:ExistingLandUseSample)/selu:hilucsLandUse/@xlink:href
