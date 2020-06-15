@@ -26,13 +26,28 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-lu](#ref_TG_DS_LU) | [GML application schemas, Land Use](../lu-gml/README.md) | INSPIRE spatial data set encoded in GML, Land Use features | n/a |
+| [TG DS-LU](#ref_TG_DS_LU) | [GML application schemas, Land Use](../lu-gml/README.md) | INSPIRE spatial data set encoded in GML, Land Use features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
-The instantiable feature type is:
+The instantiable feature types are:
 
-**TO BE COMPLETED**
+Existing Land Use:
+* ExistingLandUseDataSet
+* ExistingLandUseObject
+
+Gridded Existing Land Use:
+* ExistingLandUseGrid
+
+Planned Land Use:
+* SpatialPlan
+* SupplementaryRegulation
+* ZoningElement
+* OfficialDocumentation
+
+Sampled Existing Land Use:
+* SampledExistingLandUseDataSet
+* ExistingLandUseSample
 
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
 
@@ -42,12 +57,12 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-lu <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
+TG DS-LU <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-lu](#ref_TG_DS_LU)  |
+| Identifier                                                        | Status   | Test case in [TG DS-LU](#ref_TG_DS_LU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Code lists](./code-list.md)  | ready for review  | A.5.1 |
 | [Feature references](./features.md)  | ready for review  | A.1.4 |
