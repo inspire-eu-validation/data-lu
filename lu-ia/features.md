@@ -1,4 +1,4 @@
-# Feature references
+# Feature references [DRAFT]
 
 **Purpose**: Verify that referenced features can be retrieved.
 
@@ -10,9 +10,7 @@
 
 This data theme currently has the following association roles:
 
-* ManagementRestrictionOrRegulationZone.[relatedZone](#relatedZone) : ManagementRestrictionOrRegulationZone
-* ManagementRestrictionOrRegulationZone.[plan](#plan) : base2:DocumentCitation
-* ManagementRestrictionOrRegulationZone.[legalBasis](#legalBasis) : base2:LegislationCitation
+* ------------
 
 **Reference(s)**: 
 
@@ -34,6 +32,4 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-relatedZone <a name ="relatedZone"></a>	| //schema-element(am:ManagementRestrictionOrRegulationZone)/am:relatedZone/@xlink:href
-plan <a name ="plan"></a>	| //schema-element(am:ManagementRestrictionOrRegulationZone)/am:plan/@xlink:href
-legalBasis <a name ="legalBasis"></a>	| //schema-element(am:ManagementRestrictionOrRegulationZone)/am:legalBasis/@xlink:href
+--------- <a name ="-------"></a>	| //schema-element(---:-----)/----:----/@xlink:href
