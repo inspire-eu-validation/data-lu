@@ -1,4 +1,4 @@
-# Conformance class: Data consistency, Land Use (DRAFT)
+# Conformance class: Data consistency, Land Use
 
 Conformance class for the requirements related to the consistency of the data.
 
