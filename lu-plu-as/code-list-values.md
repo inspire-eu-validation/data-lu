@@ -62,5 +62,6 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 hilucsLandUse <a name="hilucsLandUse"></a>   | //schema-element(plu:SpatialPlan)/plu:hilucsLandUse
-
-TABLE TO BE COMPLETED
+levelOfSpatialPlan <a name="levelOfSpatialPlan"></a>   | //schema-element(plu:SpatialPlan)/plu:levelOfSpatialPlan
+processStepGeneral <a name="processStepGeneral"></a>   | //schema-element(plu:SpatialPlan)/plu:processStepGeneral
+regulationNature <a name="regulationNature"></a>   | //schema-element(plu:SpatialPlan)/plu:regulationNature
