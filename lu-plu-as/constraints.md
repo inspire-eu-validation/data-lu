@@ -13,7 +13,7 @@ The following checks are performed for every feature in the dataset.
 **Reference(s)**: 
 
 * [TG DS Template](./README.md#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-lu](./README.md#ref_TG_DS_LU) 5.4
+* [TG DS-LU](./README.md#ref_TG_DS_LU) 5.3.6.1
 
 **Test type**: Automated
 
@@ -33,6 +33,6 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-legislationCitation <a name="legislationCitation"></a> 	| 	//schema-element(plu:SpatialPlan)/plu:legislationCitation
-regulationText <a name="regulationText"></a> 	| 	//schema-element(plu:SpatialPlan)/plu:regulationText
-planDocument <a name="planDocument"></a> 	| 	//schema-element(plu:SpatialPlan)/plu:planDocument
+legislationCitation <a name="legislationCitation"></a> 	| 	//schema-element(plu:OfficialDocumentation)/plu:legislationCitation
+regulationText <a name="regulationText"></a> 	| 	//schema-element(plu:OfficialDocumentation)/plu:regulationText
+planDocument <a name="planDocument"></a> 	| 	//schema-element(plu:OfficialDocumentation)/plu:planDocument
