@@ -8,11 +8,10 @@
 
 The following checks are performed for every feature in the dataset.
 
-* Check that the rangeSet values is of type CategoryOrNilReason.
+* Check that the [rangeSet](#rangeSet) values is of type CategoryOrNilReason.
 "NOTE: Range is based on either HILUCS or on a specific land use classification sytem defined by the data provider"
 
-* Check that the spatial object type CoverageByDomainAndRange is only of subtypes of GridCoverage.
-
+* Check that the spatial object type CoverageByDomainAndRange is provided and if it is a subtype of GridCoverage.
 
 **Reference(s)**: 
 
@@ -37,7 +36,7 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
-legalBasis <a name="legalBasis"></a> 	| 	//schema-element(am:ManagementRestrictionOrRegulationZone)/am:legalBasis
+rangeSet <a name="rangeSet"></a> 	| 	//schema-element(gelu:ExistingLandUseGrid)/gml:rangeSet/gml:CategoryList
 LegislationCitation <a name="LegislationCitation"></a> 	| 	//schema-element(am:ManagementRestrictionOrRegulationZone)/am:legalBasis/base2:LegislationCitation
 
 TABLE TO BE COMPLETED
