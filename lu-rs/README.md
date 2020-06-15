@@ -32,7 +32,22 @@ An indirect dependency is another conformance class whose requirements must be m
 
 The instantiable feature types are:
  
-* ManagementRestrictionOrRegulationZone
+Existing Land Use:
+* ExistingLandUseDataSet
+* ExistingLandUseObject
+
+Gridded Existing Land Use:
+* ExistingLandUseGrid
+
+Planned Land Use:
+* SpatialPlan
+* SupplementaryRegulation
+* ZoningElement
+* OfficialDocumentation
+
+Sampled Existing Land Use:
+* SampledExistingLandUseDataSet
+* ExistingLandUseSample
  
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
 
