@@ -36,9 +36,9 @@ brokenLink <a name="brokenLink"/>  |  XML document '$filename', $featureType '$g
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression
----------------------------------------------------------- | -------------------------------------------------------------------------
-LandUseClassificationValue <a name ="LandUseClassificationValue"></a>	| //schema-element(*:*)/*:LandUseClassificationValue/@xlink:href
-PlanTypeNameValue <a name ="PlanTypeNameValue"></a>	| //schema-element(*:*)/*:PlanTypeNameValue/@xlink:href
-SpecificSupplementaryRegulationValue <a name ="SpecificSupplementaryRegulationValue"></a>	| //schema-element(*:*)/*:SpecificSupplementaryRegulationValue/@xlink:href
-SupplementaryRegulationValue <a name ="SupplementaryRegulationValue"></a>	| //schema-element(*:*)/*:SupplementaryRegulationValue/@xlink:href
+Abbreviation                                               |  XPath expression      |Multiplicity   |Voidable
+---------------------------------------------------------- | -----------------------|---------------|---------------------------------
+LandUseClassificationValue <a name ="LandUseClassificationValue"></a>	| //schema-element(\*:\*)/\*:orderedList/@xlink:href <br> //schema-element(\*:\*)/\*:specificValue/@xlink:href <br> //schema-element(\*:\*)/\*:specificLandUse/@xlink:href | 1..\* <br> 1 <br> 1..\* | No <br> No <br> Yes
+PlanTypeNameValue <a name ="PlanTypeNameValue"></a>	| //schema-element(\*:\*)/\*:planTypeName/@xlink:href | 1 | No  
+SpecificSupplementaryRegulationValue <a name ="SpecificSupplementaryRegulationValue"></a>	| //schema-element(\*:\*)/\*:specificSupplementaryRegulation/@xlink:href | 1..\* | Yes
+SupplementaryRegulationValue <a name ="SupplementaryRegulationValue"></a>	| //schema-element(\*:\*)/\*:SupplementaryRegulationValue/@xlink:href | 1..\* | No
