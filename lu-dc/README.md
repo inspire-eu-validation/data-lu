@@ -60,23 +60,8 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-| Identifier                                                        | Status   | Test case in [TG DS-LU](#ref_TG_DS_LU)  |
-| ----------------------------------------------------------------- | -------- | ------------ |
+None, all data consistency test cases are covered by the generic Data consistency tests.
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
-The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
-
-Prefix         | Namespace
--------------- | -------------------------------------------------
-elu            | http://inspire.ec.europa.eu/schemas/elu/4.0
-gelu            | http://inspire.ec.europa.eu/schemas/gelu/4.0
-plu            | http://inspire.ec.europa.eu/schemas/plu/4.0
-selu            | http://inspire.ec.europa.eu/schemas/selu/4.0
-lunom          | http://inspire.ec.europa.eu/schemas/lunom/4.0
-base           | http://inspire.ec.europa.eu/schemas/base/3.3
-gml            | http://www.opengis.net/gml/3.2
-wfs            | http://www.opengis.net/wfs/2.0
-xsi            | http://www.w3.org/2001/XMLSchema-instance
-xlink          | http://www.w3.org/1999/xlink
-xml            | http://www.w3.org/XML/1998/namespace
+n/a
