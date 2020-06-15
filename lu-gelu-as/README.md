@@ -47,6 +47,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 | Identifier                                                        | Status   | Test case in [TG DS-LU](#ref_TG_DS_LU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Constraints](./constraints.md)  | Draft  | A.1.6  |
+| [Coverage-Constraints](./coverage-constraints.md)  | Draft  | A.1.6  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
