@@ -62,7 +62,6 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 | Identifier                                                        | Status   | Test case in [TG DS-LU](#ref_TG_DS_LU)  |
 | ----------------------------------------------------------------- | -------- | ------------ |
-| [Geometry consistency](./geometry.md)  | ready for review  | A.3.6  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
