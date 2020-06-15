@@ -48,7 +48,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 | ----------------------------------------------------------------- | -------- | ------------ |
 | [Code list values](./code-list-values.md)  | Draft  | A.1.3  |
 | [Constraints](./constraints.md)  | Draft  | A.1.6  |
-| [Coverage-Constraints](./coverage-constraints.md)  | Draft  | A.1.6  |
+| [Coverage constraints](./coverage-constraints.md)  | Draft  | A.1.6  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
