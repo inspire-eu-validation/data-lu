@@ -16,7 +16,7 @@ The following checks are performed for every feature in the dataset.
 **Reference(s)**: 
 
 * [TG DS Template](./README.md#ref_TG_DS_tmpl) IR requirement Article 4 (2)
-* [TG DS-LU](./README.md#ref_TG_DS_LU) 5.4
+* [TG DS-LU](./README.md#ref_TG_DS_LU) 5.3.4
 
 **Test type**: Automated
 
