@@ -8,7 +8,7 @@
 
 The following check is performed for every feature in the dataset.
 
-* [Range](rangeSet) is based on either HILUCS or on a specific land use classification system defined by the data provider.
+* [Range](#rangeSet) is based on either HILUCS or on a specific land use classification system defined by the data provider.
 
 | https://inspire.ec.europa.eu/codelist/HILUCSValue | 
 
