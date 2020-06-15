@@ -28,8 +28,6 @@ The following check is performed for every feature in the dataset.
 
 **Notes**
 
-The multiplicity of [hilucsLandUse](#hilucsLandUse) is 1 or more.
-
 The following is not applicable for this application schema as no extensions are allowed. It is still included here as a reminder in case extensions will be allowed in the future:
 
 Inspect the code list valued property elements. If a value is not one of the values listed above, review the code list definition to check that any extensions do not overlap with the code lists that are defined in Annexes II, III and IV of the Implementing Rule and that all extensions conform to the requirements. This is a manual test.
