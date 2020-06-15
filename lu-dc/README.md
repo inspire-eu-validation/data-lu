@@ -60,7 +60,7 @@ TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Tem
 
 ## Test Cases
 
-None, all data consistency test cases are covered by the generic Data consistency tests.
+None, all data consistency test cases are covered by the generic [Data consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency) tests.
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
