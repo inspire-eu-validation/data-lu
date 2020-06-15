@@ -44,6 +44,6 @@ disallowedCodeListValue <a name="disallowedCodeListValue"/>  |  XML document '$f
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression
----------------------------------------------------------- | -------------------------------------------------------------------------
-hilucsLandUse <a name="hilucsLandUse"></a>   | //schema-element(elu:ExistingLandUseObject)/elu:hilucsLandUse/@xlink:href
+Abbreviation                                               |  XPath expression |Multiplicity |Voidable
+---------------------------------------------------------- | ------------------|-------------|----------------------------------------
+hilucsLandUse <a name="hilucsLandUse"></a> | //schema-element(elu:ExistingLandUseObject)/elu:hilucsLandUse/@xlink:href | 1..\* | No
