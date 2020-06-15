@@ -1,4 +1,4 @@
-# Data Specification on Land Use (DRAFT)
+# Data Specification on Land Use
                        
 The Data Specification on Land Use – Technical Guidelines (version 3.0) and the associated GML application schema specifying requirements for the interoperability of spatial data sets of the data theme Land Use.
 
@@ -8,7 +8,8 @@ The specification specifies the following conformance classes:
 | ----------------- | ---------------------- |
 | [GML application schemas, Land Use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-gml) | INSPIRE spatial data set encoded in GML, Land Use features |
 | [Application Schema, Existing land use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-elu-as) | INSPIRE spatial data set |
-| [Application Schema, Gridded existing land use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-gelu-as) | INSPIRE spatial data set | [Application Schema, Planned land use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-plu-as) | INSPIRE spatial data set |
+| [Application Schema, Gridded existing land use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-gelu-as) | INSPIRE spatial data set
+| [Application Schema, Planned land use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-plu-as) | INSPIRE spatial data set |
 | [Application Schema, Sampled existing land use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-selu-as) | INSPIRE spatial data set 
 | [Reference Systems, Land Use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-rs) | INSPIRE spatial data set |
 | [Data Consistency, Land Use](http://inspire.ec.europa.eu/id/ats/data-lu/3.0/lu-dc) | INSPIRE spatial data set |
