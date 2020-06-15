@@ -1,4 +1,4 @@
-# Conformance class: Reference systems, Land Use (DRAFT)
+# Conformance class: Reference systems, Land Use
 
 Conformance class for the requirements associated with reference systems (spatial and temporal, units of measurement).
 
