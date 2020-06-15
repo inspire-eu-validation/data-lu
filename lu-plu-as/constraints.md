@@ -31,8 +31,8 @@ constraintViolation <a name="constraintViolation"/>  |  XML document '$filename'
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression
----------------------------------------------------------- | -------------------------------------------------------------------------
-legislationCitation <a name="legislationCitation"></a> 	| 	//schema-element(plu:OfficialDocumentation)/plu:legislationCitation
-regulationText <a name="regulationText"></a> 	| 	//schema-element(plu:OfficialDocumentation)/plu:regulationText
-planDocument <a name="planDocument"></a> 	| 	//schema-element(plu:OfficialDocumentation)/plu:planDocument
+Abbreviation                                               |  XPath expression                     |Multiplicity       |Voidable
+---------------------------------------------------------- | ------------------------------------- | ------------------|----------
+legislationCitation <a name="legislationCitation"></a> | //schema-element(plu:OfficialDocumentation)/plu:legislationCitation|0..1 |Yes
+regulationText <a name="regulationText"></a> 	| //schema-element(plu:OfficialDocumentation)/plu:regulationText|0..1 |Yes
+planDocument <a name="planDocument"></a> 	| //schema-element(plu:OfficialDocumentation)/plu:planDocument|0..1 |Yes
