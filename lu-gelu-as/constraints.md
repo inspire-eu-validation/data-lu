@@ -11,8 +11,6 @@ The following checks are performed for every feature in the dataset.
 * Check that the [rangeSet](#rangeSet) values is of type CategoryOrNilReason.
 "NOTE: Range is based on either HILUCS or on a specific land use classification sytem defined by the data provider"
 
-* Check that the spatial object type CoverageByDomainAndRange is provided and if it is a subtype of GridCoverage.
-
 **Reference(s)**: 
 
 * [TG DS Template](./README.md#ref_TG_DS_tmpl) IR requirement Article 4 (2)
