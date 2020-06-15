@@ -59,9 +59,9 @@ disallowedCodeListValue <a name="disallowedCodeListValue"/>  |  XML document '$f
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression                                 |Multiplicity
----------------------------------------------------------- | ------------------------------------------------- | ----------------------
-hilucsLandUse <a name="hilucsLandUse"></a> | //schema-element(plu:SpatialPlan)/plu:hilucsLandUse/@xlink:href | 1..*
-levelOfSpatialPlan <a name="levelOfSpatialPlan"></a> | //schema-element(plu:SpatialPlan)/plu:levelOfSpatialPlan/@xlink:href | 1
-processStepGeneral <a name="processStepGeneral"></a> | //schema-element(plu:SpatialPlan)/plu:processStepGeneral/@xlink:href | 1
-regulationNature <a name="regulationNature"></a> | //schema-element(plu:SpatialPlan)/plu:regulationNature/@xlink:href | 1
+Abbreviation                                               |  XPath expression                                 |Multiplicity|Voidable
+---------------------------------------------------------- | ------------------------------------------------- | -----------|----------
+hilucsLandUse <a name="hilucsLandUse"></a> | //schema-element(plu:SpatialPlan)/plu:hilucsLandUse/@xlink:href | 1..* | No
+levelOfSpatialPlan <a name="levelOfSpatialPlan"></a> | //schema-element(plu:SpatialPlan)/plu:levelOfSpatialPlan/@xlink:href | 1 | No
+processStepGeneral <a name="processStepGeneral"></a> | //schema-element(plu:SpatialPlan)/plu:processStepGeneral/@xlink:href | 1 | Yes
+regulationNature <a name="regulationNature"></a> | //schema-element(plu:SpatialPlan)/plu:regulationNature/@xlink:href | 1 | No
