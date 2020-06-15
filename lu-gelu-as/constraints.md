@@ -37,6 +37,3 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 Abbreviation                                               |  XPath expression
 ---------------------------------------------------------- | -------------------------------------------------------------------------
 rangeSet <a name="rangeSet"></a> 	| 	//schema-element(gelu:ExistingLandUseGrid)/gml:rangeSet/gml:CategoryList
-LegislationCitation <a name="LegislationCitation"></a> 	| 	//schema-element(am:ManagementRestrictionOrRegulationZone)/am:legalBasis/base2:LegislationCitation
-
-TABLE TO BE COMPLETED
