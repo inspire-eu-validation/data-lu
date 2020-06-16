@@ -1,4 +1,4 @@
-# Conformance class: Information accessibility, Land Use (DRAFT)
+# Conformance class: Information accessibility, Land Use
 
 Conformance class for the requirements related to the accessibility of referenced information, for example, information stored in registries (code lists, coordinate reference systems).
 
@@ -74,11 +74,14 @@ The following prefixes are used to refer to the corresponding XML namespaces in 
 Prefix         | Namespace
 -------------- | -------------------------------------------------
 gml            | http://www.opengis.net/gml/3.2
-lu             | http://inspire.ec.europa.eu/schemas/lu/4.0
-**TO BE COMPLETED**
+elu             | http://inspire.ec.europa.eu/schemas/elu/4.0
+gelu             | http://inspire.ec.europa.eu/schemas/gelu/4.0
+plu             | http://inspire.ec.europa.eu/schemas/plu/4.0
+selu             | http://inspire.ec.europa.eu/schemas/selu/4.0
+lunom          | http://inspire.ec.europa.eu/schemas/lunom/4.0
 
 The following variables are used to refer to the corresponding Xpath expressions in all test descriptions:
 
 Variable       | Value
 -------------- | -------------------------------------------------
-$features      |  //schema-element(**TO BE COMPLETED**) \|
+$features      |  //schema-element(elu:ExistingLandUseDataSet) \| //schema-element(elu:ExistingLandUseObject) \| //schema-element(gelu:ExistingLandUseGrid) \| //schema-element(plu:SpatialPlan) \| //schema-element(plu:ZoningElement) \| //schema-element(plu:SupplementaryRegulation) \| //schema-element(plu:OfficialDocumentation) \| //schema-element(plu:selu:SampledExistingLandUseDataSet) \| //schema-element(plu:selu:ExistingLandUseSample)
