@@ -1,4 +1,4 @@
-# Feature references [DRAFT]
+# Feature references
 
 **Purpose**: Verify that referenced features can be retrieved.
 
@@ -10,7 +10,17 @@
 
 This data theme currently has the following association roles:
 
-* ------------
+* ExistingLandUseDataSet.[member](#elumember): ExistingLandUseObject
+* ExistingLandUseObject.[dataset](#dataset): ExistingLandUseDataSet
+* SpatialPlan.[member](#plumember): ZoningElement
+* SpatialPlan.[officialDocument](#pluofficialDocument1): OfficialDocumentation
+* SpatialPlan.[restriction](#restriction): SupplementaryRegulation
+* ZoningElement.[plan](#plan): SpatialPlan
+* ZoningElement.[officialDocument](#pluofficialDocument2): OfficialDocumentation
+* SupplementaryRegulation.[plan](#plan2): SpatialPlan
+* SupplementaryRegulation.[officialDocument](#pluofficialDocument3): OfficialDocumentation
+* SampledExistingLandUseDataSet.[member](#selumember): ExistingLandUseSample
+* ExistingLandUseSample.[dataset](#seludataset): SampledExistingLandUseDataSet
 
 **Reference(s)**: 
 
@@ -30,6 +40,16 @@ brokenLink <a name="brokenLink"/>  |  XML document '$filename', $featureType '$g
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression
----------------------------------------------------------- | -------------------------------------------------------------------------
---------- <a name ="-------"></a>	| //schema-element(---:-----)/----:----/@xlink:href
+Abbreviation                                               |  XPath expression    | Multiplicity    | Voidable
+---------------------------------------------------------- | ---------------------|-----------------|------------
+member <a name ="elumember"></a>	| //schema-element(elu:ExistingLandUseDataSet)/elu:member/@xlink:href | 0..\* | No
+dataset <a name ="dataset"></a>	| //schema-element(elu:ExistingLandUseObject)/elu:dataset/@xlink:href | 1 | No
+member <a name ="plumember"></a>	| //schema-element(plu:SpatialPlan)/plu:member/@xlink:href | 0..\* | No
+officialDocument <a name ="pluofficialDocument1"></a>	| //schema-element(plu:SpatialPlan)/plu:officialDocument/@xlink:href | 1..\* | Yes
+restriction <a name ="restriction"></a>	| //schema-element(plu:SpatialPlan)/plu:restriction/@xlink:href | 0..\* | No
+plan <a name ="plan"></a>	| //schema-element(plu:SupplementaryRegulation)/plu:plan/@xlink:href | 1 | No
+officialDocument <a name ="pluofficialDocument2"></a>	| //schema-element(plu:ZoningElement)/plu:officialDocument/@xlink:href | 1..\* | Yes
+plan <a name ="plan2"></a>	| //schema-element(plu:SupplementaryRegulation)/plu:plan/@xlink:href | 1 | No
+officialDocument <a name ="pluofficialDocument3"></a>	| //schema-element(plu:SupplementaryRegulation)/plu:officialDocument/@xlink:href | 1..\* | Yes
+member <a name ="selumember"></a>	| //schema-element(selu:SampledExistingLandUseDataSet)/selu:member/@xlink:href | 0..\* | No
+dataset <a name ="seludataset"></a>	| //schema-element(elu:ExistingLandUseSample)/selu:dataset/@xlink:href | 1 | No
