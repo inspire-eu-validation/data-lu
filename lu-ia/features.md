@@ -40,8 +40,8 @@ brokenLink <a name="brokenLink"/>  |  XML document '$filename', $featureType '$g
 
 The namespace prefixes used as described in [README](./README.md#namespaces).
 
-Abbreviation                                               |  XPath expression    | Multiplicity    | Voidable
----------------------------------------------------------- | ---------------------|-----------------|------------
+Abbreviation                         |  XPath expression    | Multiplicity    | Voidable
+------------------------------------ | ---------------------|-----------------|------------
 ExistingLandUseDataSet.member <a name ="elumember"></a>	| //schema-element(elu:ExistingLandUseDataSet)/elu:member/@xlink:href | 0..\* | No
 ExistingLandUseObject.dataset <a name ="dataset"></a>	| //schema-element(elu:ExistingLandUseObject)/elu:dataset/@xlink:href | 1 | No
 SpatialPlan.member <a name ="plumember"></a>	| //schema-element(plu:SpatialPlan)/plu:member/@xlink:href | 0..\* | No
@@ -52,4 +52,4 @@ ZoningElement.officialDocument <a name ="pluofficialDocument2"></a>	| //schema-e
 SupplementaryRegulation.plan <a name ="plan2"></a>	| //schema-element(plu:SupplementaryRegulation)/plu:plan/@xlink:href | 1 | No
 SupplementaryRegulation.officialDocument <a name ="pluofficialDocument3"></a>	| //schema-element(plu:SupplementaryRegulation)/plu:officialDocument/@xlink:href | 1..\* | Yes
 SampledExistingLandUseDataSet.member <a name ="selumember"></a>	| //schema-element(selu:SampledExistingLandUseDataSet)/selu:member/@xlink:href | 0..\* | No
-ExistingLandUseSample.dataset <a name ="seludataset"></a>	| //schema-element(elu:ExistingLandUseSample)/selu:dataset/@xlink:href | 1 | No
+ExistingLandUseSample.dataset <a name ="seludataset"></a>	| //schema-element(selu:ExistingLandUseSample)/selu:dataset/@xlink:href | 1 | No
