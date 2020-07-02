@@ -38,7 +38,7 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression      |Multiplicity   |Voidable
 ---------------------------------------------------------- | -----------------------|---------------|---------------------------------
-LandUseClassificationValue <a name ="LandUseClassificationValue"></a>	| //schema-element(\*:\*)/\*:orderedList/@xlink:href <br> //schema-element(\*:\*)/\*:specificValue/@xlink:href <br> //schema-element(\*:\*)/\*:specificLandUse/@xlink:href | 1..\* <br> 1 <br> 1..\* | No <br> No <br> Yes
+LandUseClassificationValue <a name ="LandUseClassificationValue"></a>	| //schema-element(\*:\*)/\lunom:orderedList/@xlink:href <br> //schema-element(\*:\*)/\lunom:specificValue/@xlink:href <br> //schema-element(\*:\*)/\:specificLandUse/@xlink:href | 1..\* <br> 1 <br> 1..\* | No <br> No <br> Yes
 PlanTypeNameValue <a name ="PlanTypeNameValue"></a>	| //schema-element(\*:\*)/\*:planTypeName/@xlink:href | 1 | No  
 SpecificSupplementaryRegulationValue <a name ="SpecificSupplementaryRegulationValue"></a>	| //schema-element(\*:\*)/\*:specificSupplementaryRegulation/@xlink:href | 1..\* | Yes
 SupplementaryRegulationValue <a name ="SupplementaryRegulationValue"></a>	| //schema-element(\*:\*)/\*:SupplementaryRegulationValue/@xlink:href | 1..\* | No
