@@ -26,7 +26,7 @@ An indirect dependency is another conformance class whose requirements must be m
 
 | Specification | Conformance class | Related resource | Parameters |
 | ------------- | ----------------- | ---------------- | ---------- |
-| [TG DS-LU](#ref_TG_DS_LU) | [GML application schema, Land Use Simple](../lu-gml/README.md) | INSPIRE spatial data set encoded in GML, Land Use features | n/a |
+| [TG DS-LU](#ref_TG_DS_LU) | [GML application schema, Land Use](../lu-gml/README.md) | INSPIRE spatial data set encoded in GML, Land Use features | n/a |
  
 ## Feature types <a name="feature-types"></a>
 
