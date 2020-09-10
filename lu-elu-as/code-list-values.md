@@ -13,7 +13,7 @@ The following check is performed for every feature in the dataset.
 
 | <a name="validValue"></a> Valid values for xlink:href attribute of [hilucsLandUse](#hilucsLandUse) element are available in the INSPIRE Registry| 
 | ---- | 
-| https://inspire.ec.europa.eu/codelist/HILUCSValue | 
+| http://inspire.ec.europa.eu/codelist/HILUCSValue | 
 
 **Reference(s)**: 
 
