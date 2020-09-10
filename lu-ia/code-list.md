@@ -10,13 +10,13 @@
 
 This data theme currently has the following extensible code lists:
 
-* [LandUseClassificationValue](#LandUseClassificationValue) : https://inspire.ec.europa.eu/codelist/LandUseClassificationValue
+* [LandUseClassificationValue](#LandUseClassificationValue) : http://inspire.ec.europa.eu/codelist/LandUseClassificationValue
 
-* [PlanTypeNameValue](#PlanTypeNameValue) : https://inspire.ec.europa.eu/codelist/PlanTypeNameValue
+* [PlanTypeNameValue](#PlanTypeNameValue) : http://inspire.ec.europa.eu/codelist/PlanTypeNameValue
 
-* [SpecificSupplementaryRegulationValue](#SpecificSupplementaryRegulationValue) :  https://inspire.ec.europa.eu/codelist/SpecificSupplementaryRegulationValue
+* [SpecificSupplementaryRegulationValue](#SpecificSupplementaryRegulationValue) :  http://inspire.ec.europa.eu/codelist/SpecificSupplementaryRegulationValue
 
-* [SupplementaryRegulationValue](#SupplementaryRegulationValue) : https://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue
+* [SupplementaryRegulationValue](#SupplementaryRegulationValue) : http://inspire.ec.europa.eu/codelist/SupplementaryRegulationValue
 
 **Reference(s)**: 
 
