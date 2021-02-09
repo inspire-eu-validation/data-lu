@@ -29,22 +29,7 @@ none
 
 The instantiable feature type is:
 
-Existing Land Use:
-* ExistingLandUseDataSet
-* ExistingLandUseObject
-
-Gridded Existing Land Use:
-* ExistingLandUseGrid
-
-Planned Land Use:
-* SpatialPlan
-* SupplementaryRegulation
-* ZoningElement
-* OfficialDocumentation
-
-Sampled Existing Land Use:
-* SampledExistingLandUseDataSet
-* ExistingLandUseSample
+ManagementRestrictionOrRegulationZone
 
 
 *Note*: When "features" or "spatial objects" are mentioned in the test cases, this refers only to instances of feature types of this application schema, not to any types specified in any other application schema.
@@ -55,13 +40,20 @@ The following abbreviations are used in the test text for referring to external 
 
 Abbreviation                     | Document name
 -------------------------------- | --------------------------------------------------
-TG DS-LU <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
+TG DS-lu <a name="ref_TG_DS_LU"></a>   | [INSPIRE Data Specification on Land Use – Technical Guidelines version 3.0](http://inspire.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_LU_v3.0.pdf)
 TG DS Template <a name="ref_TG_DS_tmpl"></a>   | [INSPIRE Data Specification Template version 3.0rc3](http://inspire.jrc.ec.europa.eu/documents/Data_Specifications/INSPIRE_DataSpecification_Template_v3.0rc3.pdf)
 
 ## Test Cases
 
-None, all data consistency test cases are covered by the generic [Data consistency](http://inspire.ec.europa.eu/id/ats/data/3.0rc3/data-consistency) tests.
+| Identifier                                                        | Status   | Test case in [TG DS-lu](#ref_TG_DS_LU)  |
+| ----------------------------------------------------------------- | -------- | ------------ |
+| [Geometry consistency](./geometry.md)  | ready for review  | A.3.6  |
 
 ## XML namespace prefixes <a name="namespaces"></a>
 
-n/a
+The following prefixes are used to refer to the corresponding XML namespaces in all test descriptions:
+
+Prefix         | Namespace
+-------------- | -------------------------------------------------
+am        	   | http://inspire.ec.europa.eu/schemas/lu/4.0
+gml            | http://www.opengis.net/gml/3.2
